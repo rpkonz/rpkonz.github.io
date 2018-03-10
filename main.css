@@ -6,6 +6,7 @@
   font-size: 14px;
   overflow: scroll;
   padding: 10px;
+  z-index: 1;
 }
 
 .stack{
@@ -24,8 +25,22 @@
 	background-color: lightgray;
 	border: 2px solid black;
 	margin: 10px;
+	position: relative;
 }
 
 .type{
 	font-size: 11px;
+}
+
+.background{
+	position: absolute;
+	top: 25%;
+	right: 5%;
+	opacity: 0.2;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+button {
+	cursor: pointer;
 }
