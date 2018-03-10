@@ -54,7 +54,7 @@ $(document).ready(function(){
 	$("#p4 .addBtn").on("click", function(){
 		console.log("Add clicked");
 
-		var card = $("#p3 input").val();
+		var card = $("#p4 input").val();
 
 		if(card.length > 0)
 			$.ajax({
