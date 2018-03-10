@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function(){
 	$.ajax({
 	  url: "https://api.magicthegathering.io/v1/cards?name=nissa's chosen"
@@ -15,4 +14,3 @@ $(document).ready(function(){
 		$("body").append("<br/>");  
 	});
 });
-</script>
